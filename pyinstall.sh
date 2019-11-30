@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 
-echo "***********************"
-echo "$0 $*"
+echo "***********************" > /tmp/foobar.$$
+echo "$0 $*" >> /tmp/foobar.$$
