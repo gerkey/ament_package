@@ -2,3 +2,4 @@
 
 echo "***********************" > /tmp/foobar.$$
 echo "$0 $*" >> /tmp/foobar.$$
+exit 1
